@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Resultados:</h1>
+    <p th:text="'Monto con IVA: ' + ${greeting.conIVA}" />
+    <p th:text="'Monto con Ingresos Brutos: ' + ${greeting.conIIBB}" />
+    <a href="/greeting">Submit another message</a>
+</body>
+</html>
